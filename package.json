@@ -1,0 +1,35 @@
+{
+  "name": "ai-project0",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "serve": "http-server . -p 5556",
+    "build": "npm run clean && tsc",
+    "build_prod": "npm run build && browserify -s main app/app.main.js > dist/bundle.js && npm run minify",
+    "minify": "uglifyjs dist/bundle.js --screw-ie8 --compress --mangle --output dist/bundle.min.js"
+  },
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "angular-in-memory-web-api": "~0.1.5",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "sudoku": "0.0.2",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  }
+}

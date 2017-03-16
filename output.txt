@@ -1,0 +1,39 @@
+With setting values if there was only one possible value
+---
+easy267.csv solved 55/55 cells in 0.491485 ms
+easy268.csv solved 56/56 cells in 0.508116 ms
+hard263.csv solved 2/59 cells in 0.257523 ms
+hard264.csv solved 0/59 cells in 0.218118 ms
+medium267.csv solved 0/59 cells in 0.212925 ms
+medium268.csv solved 5/58 cells in 0.274982 ms
+puzzle01.csv solved 0/59 cells in 0.299105 ms
+puzzle02.csv solved 0/58 cells in 0.359854 ms
+puzzle03.csv solved 0/59 cells in 0.273741 ms
+puzzle04.csv solved 0/59 cells in 0.211175 ms
+puzzle05.csv solved 0/61 cells in 0.545331 ms
+puzzle06.csv solved 0/59 cells in 0.207306 ms
+puzzle07.csv solved 0/60 cells in 0.207339 ms
+puzzle08.csv solved 0/59 cells in 0.212572 ms
+puzzle09.csv solved 0/60 cells in 0.207384 ms
+puzzle10.csv solved 0/62 cells in 0.201354 ms
+Total solved 118/942 cells (12.52654%)
+
+Adding in solve if only value in row/column/block that has that as a possible value
+---
+easy267.csv solved 55/55 cells in 0.921316 ms
+easy268.csv solved 56/56 cells in 1.465402 ms
+hard263.csv solved 59/59 cells in 3.359461 ms
+hard264.csv solved 59/59 cells in 1.856896 ms
+medium267.csv solved 59/59 cells in 3.063782 ms
+medium268.csv solved 58/58 cells in 3.602594 ms
+puzzle01.csv solved 5/59 cells in 2.349611 ms
+puzzle02.csv solved 10/58 cells in 1.676933 ms
+puzzle03.csv solved 3/59 cells in 2.028401 ms
+puzzle04.csv solved 8/59 cells in 1.647297 ms
+puzzle05.csv solved 0/61 cells in 1.067437 ms
+puzzle06.csv solved 3/59 cells in 4.678775 ms
+puzzle07.csv solved 3/60 cells in 2.071218 ms
+puzzle08.csv solved 3/59 cells in 1.591045 ms
+puzzle09.csv solved 4/60 cells in 2.14812 ms
+puzzle10.csv solved 1/62 cells in 1.562588 ms
+Total solved 386/942 cells (40.97665%)
